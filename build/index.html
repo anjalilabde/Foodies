@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../build/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800&family=Rubik:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <title>Foodies</title>
+</head>
+
+<body>
+    <header class="bg-green-Light ">
+        <div class="container">
+            <nav class="flex justify-between items-center py-4">
+                <a href="#"><img src="../images/Logo.png" alt=""></a>
+                <div>
+                    <button id="hamburger-button"
+                        class="text-3xl md:hidden text-green-Primary cursor-pointer relative border-solid border-spacing-1 border-green-Primary border-2 px-2 text-center">
+                        &#9776;
+                    </button>
+                    <ul class="hidden md:flex items-center gap-8 text-gray-Dark">
+                        <a href="#">
+                            <li class="font-semibold text-green-Primary">Home</li>
+                        </a>
+                        <a href="#">
+                            <li class="font-medium hover:text-green-Primary">About Us</li>
+                        </a>
+                        <a href="#">
+                            <li class="font-medium hover:text-green-Primary">Service Us</li>
+                        </a>
+                        <a href="#">
+                            <li class="font-medium hover:text-green-Primary">Our Company</li>
+                        </a>
+                        <a href="#">
+                            <li class="font-medium hover:text-green-Primary">Pages</li>
+                        </a>
+                    </ul>
+                </div>
+            </nav>
+    </header>
+
+
+
+    <main>
+        <section class="bg-green-Light">
+            <div class="container">
+                <div class="flex flex-col md:flex-row justify-between items-center py-12">
+                    <div class="md:w-2/5 text-center flex flex-col items-center  mb-4 md:items-start">
+                        <h1
+                            class="text-4xl lg:text-6xl text-gray-Dark font-semibold md:text-4xl mb-4 lg:text-left md:text-left text-center lg:-mt-32">
+                            We're Serious For Food
+                        </h1>
+                        <p class="text-gray-Light text-center mb-4 md:text-left md:text-sm">We strive to provide a space
+                            where
+                            guests
+                            can connect with themselves and explore their full potential, offering a safe place.
+                        </p>
+                        <div class="md:mb-20">
+                            <button class="bg-green-Primary p-4 hover:bg-green-400 text-white-white flex items-center ">
+                                Get Started
+                                <img src="../images/arrow.svg" alt="" class="pl-6">
+                            </button>
+                        </div>
+                    </div>
+                    <div class=" md:w-1/2 text-center">
+                        <img src="../images/hero-page-2.png" alt="" class="ml-5 sm:hidden ">
+                        <img src="../images/hero-page-1.png" alt="" class="hidden sm:block">
+                    </div>
+                </div>
+        </section>
+
+
+        <section class="bg-white-white md:pb-10">
+            <div class="container">
+                <div class="flex justify-between my-10 mx-0 md:w-1/2 md:-mt-40 md:pt-14 flex-wrap">
+                    <div class="mx-auto"><img src="../images/logo1.png" alt=""></div>
+                    <div class="mx-auto"><img src="../images/logo2.png" alt=""></div>
+                    <div class="mx-auto"><img src="../images/logo3.png" alt=""></div>
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="container">
+                <div id="features"
+                    class="grid grid-cols-2 gap-7 my-4 lg:grid-cols-4 md:mt-12 border-y border-solid border-gray-Light border-opacity-25  md:w-3/4 md:mx-auto lg:w-full py-14">
+                    <div class="md:flex md:items-center md:space-x-4">
+                        <div class="text-center flex justify-center">
+                            <img class="bg-green-Light p-4 rounded-md " src="../images/feature-1.png" alt="">
+                        </div>
+                        <div class="text-center md:text-left">
+                            <div class="text-gray-Dark md:text-lg text-sm mt-4">Free Shipping</div>
+                            <div class="text-gray-Light md:text-sm text-xs ">Order over $140</div>
+                        </div>
+                    </div>
+
+                    <div class="md:flex md:items-center md:space-x-4">
+                        <div class="text-center flex justify-center">
+                            <img class="bg-green-Light p-4 rounded-md " src="../images/feature-2.png" alt="">
+                        </div>
+                        <div class="text-center md:text-left">
+                            <div class="text-gray-Dark md:text-lg text-sm mt-4">Quick Payment</div>
+                            <div class="text-gray-Light md:text-sm text-xs ">100% secure payment</div>
+                        </div>
+                    </div>
+
+                    <div class="md:flex md:items-center md:space-x-4 ">
+                        <div class="text-center flex justify-center">
+                            <img class="bg-green-Light p-4 rounded-md " src="../images/feature-3.png" alt="">
+                        </div>
+                        <div class="text-center md:text-left">
+                            <div class="text-gray-Dark md:text-lg text-sm mt-4">Special Promo</div>
+                            <div class="text-gray-Light text-md:sm text-xs  "> Get special Promo</div>
+                        </div>
+                    </div>
+
+                    <div class="md:flex md:items-center md:space-x-4">
+                        <div class="text-center flex justify-center">
+                            <img class="bg-green-Light p-4 rounded-md " src="../images/feature-4.png" alt="">
+                        </div>
+                        <div class="text-center md:text-left">
+                            <div class="text-gray-Dark md:text-lg text-sm mt-4">24/7 Support</div>
+                            <div class="text-gray-Light text-md:sm text-xs  "> Ready support</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="container">
+                <!-- <div class="md:flex items-center justify-between mt-32"> -->
+
+                <div class="md:grid md:grid-cols-2 gap-10">
+                    <div class="mb-4 md:w-full mt-10">
+                        <img src="../images/Image-1.png" alt="" class="mx-auto md:mx-0">
+                    </div>
+                    <div class="relative z-10 md:my-auto">
+                        <p class="text-center mb-4 md:text-left font-semibold md:mb-4 text-gray-Dark mt-12 md:mt-0">
+                            Our Benefits
+                        </p>
+                        <!-- -ml-12 -->
+                        <div class="absolute -translate-x-20 -translate-y-10 -z-10">
+                            <img src="../images/Polcadot.png" alt="" class="">
+                        </div>
+                        <!-- -mt-40 -->
+                        <h1
+                            class="text-3xl font-medium text-center mb-6 md:text-4xl  lg:text-7xl md:text-left lg:mb-16 md:mb-10 text-gray-Dark z-10">
+                            The More Healthy Food The Better
+                        </h1>
+
+                        <div class="flex flex-col">
+                            <ul class=" text-gray-Dark mx-auto md:mx-0 space-y-4">
+                                <li class="flex font-medium md:text-sm text-sm">
+                                    <img src="../images/check.svg" alt="" class="mr-4">
+                                    <span>Be Alive With Veggie Food.</span>
+                                </li>
+                                <li class="flex font-medium md:text-sm text-sm">
+                                    <img src="../images/check.svg" alt="" class="mr-4"><span>It's The
+                                        Place
+                                        To Be.</span>
+                                </li>
+                                <li class="flex font-medium md:text-sm text-sm"><img src="../images/check.svg" alt=""
+                                        class="mr-4">
+                                    <span>Nonstop
+                                        Veggie
+                                        Food</span>
+                                </li>
+                                <li class="flex font-medium md:text-sm text-sm"><img src="../images/check.svg" alt=""
+                                        class="mr-4">
+                                    <span> The Best
+                                        Silk
+                                        Dish In Town</span>
+                                </li>
+                                <li class="flex font-mediummd:text-sm text-sm"><img src="../images/check.svg" alt=""
+                                        class="mr-4">
+                                    <span>Truffles, Egg
+                                        &
+                                        Pumpkin Spice</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section>
+            <div class="container">
+                <!-- <div class="my-16 md:flex md:flex-row-reverse justify-between"> -->
+                <div class="my-16 md:grid md:grid-cols-2 gap-10">
+                    <div class="mb-4 md:z-10 order-last">
+                        <img src="../images/Image-2.png" alt="" class="mx-auto md:mx-0">
+                    </div>
+                    <div class="text-left md:my-auto">
+                        <p class="text-center text-gray-Dark mb-4 md:text-left font-medium md:mb-4  mt-12 md:mt-0">Our
+                            Stars</p>
+                        <div class="">
+                            <img src="../images/Polcadot.png" alt="" class="">
+                        </div>
+                        <h1
+                            class="text-3xl font-medium text-center mb-6 md:text-4xl  lg:text-7xl md:text-left lg:mb-16 md:mb-10 text-gray-Dark z-10 -mt-40">
+                            Veggie
+                            Food Goes
+                            On And Always On</h1>
+                        <div class="text-center md:flex">
+                            <div class="mb-6  md:mr-12">
+                                <h3 class="text-green-Primary font-bold text-2xl mb-4 md:text-3xl ">1,500</h3>
+                                <p class="text-gray-Light font-normal text-base">Sold Product</p>
+                            </div>
+                            <div class="  md:mr-12">
+                                <h3 class="text-green-Primary font-bold text-2xl mb-4 md:text-3xl">500</h3>
+                                <p class="text-gray-Light font-normal text-base">Positive Feedback</p>
+                            </div>
+                            <div>
+                                <h3 class="text-green-Primary font-bold text-2xl mb-4 md:text-3xl">400</h3>
+                                <p class="text-gray-Light font-normal text-base">Official Stores</p>
+                            </div>
+                        </div>
+                        <div class=" flex items-center justify-center md:justify-start text-center mt-12 md:mt-2">
+                            <button class="bg-green-Primary p-4 hover:bg-green-400 text-white-white flex items-center ">
+                                Get Special Promo
+                                <img src="../images/arrow.svg" alt="" class="pl-6">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="my-24">
+            <div class="container">
+                <div>
+                    <div>
+                        <p class="text-center text-gray-Dark mb-4 font-semibold md:mb-4">Our Features</p>
+                        <h1 class="text-4xl font-medium text-gray-Dark text-center mb-10 md:mb-16 md:text-6xl ">
+                            Variety Of Veggie Food</h1>
+                    </div>
+                    <div class="grid grid-cols-1 lg:grid-cols-4 sm:grid-cols-2 md:mx-auto lg:w-full md:w-3/4">
+                        <div>
+                            <img src="../images/g-1.png" alt="" class="w-full  h-full object-cover">
+                        </div>
+
+                        <div
+                            class="border-2 border-solid border-green-Primary bg-green-Light md:p-8 p-8 flex flex-col justify-center">
+                            <div>
+                                <p class="text-gray-Dark text-4xl font-medium">Veggies Are Forever</p>
+                                <p class="text-gray-Dark font-medium mt-4">We offer the following services</p>
+                            </div>
+                            <div class=" flex items-center md:justify-start text-center mt-8 md:mt-2">
+                                <button
+                                    class="bg-green-Primary/10 p-4 hover:bg-green-300 text-green-Primary flex items-center ">
+                                    Discover Now
+                                    <img src="../images/arrow-green.svg" alt="" class="pl-4">
+                                </button>
+                            </div>
+                        </div>
+
+                        <div>
+                            <img src="../images/g-2.png" alt="" class="w-full  h-full object-cover">
+                        </div>
+                        <div
+                            class="border-2 border-solid border-green-Primary bg-green-Light md:p-8 p-8 flex flex-col justify-center">
+                            <div>
+                                <p class="text-gray-Dark text-4xl font-medium">Good For Your Skin</p>
+                                <p class="text-gray-Dark font-medium mt-4">We offer the following services</p>
+                            </div>
+                            <div class=" flex items-center md:justify-start text-center mt-8 md:mt-2">
+                                <button
+                                    class="bg-green-Primary/10 p-4 hover:bg-green-300 text-green-Primary flex items-center ">
+                                    Discover Now
+                                    <img src="../images/arrow-green.svg" alt="" class="pl-4">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="grid grid-cols-1 lg:grid-cols-4 sm:grid-cols-2 md:mx-auto lg:w-full md:w-3/4">
+
+
+                        <div
+                            class=" border-2 border-solid border-green-Primary bg-green-Light md:p-8 p-8 flex flex-col justify-center ">
+                            <div>
+                                <p class="text-gray-Dark text-4xl font-medium">Veggie Food Groove</p>
+                                <p class="text-gray-Dark font-medium mt-4">We offer the following services</p>
+                            </div>
+                            <div class=" flex items-center md:justify-start text-center mt-8 md:mt-2">
+                                <button
+                                    class="bg-green-Primary/10 p-4 hover:bg-green-300 text-green-Primary flex items-center ">
+                                    Discover Now
+                                    <img src="../images/arrow-green.svg" alt="" class="pl-4">
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="order-first md:order-none">
+                            <img src="../images/g-3.png" alt="" class=" w-full h-full object-cover">
+                        </div>
+
+
+
+
+
+                        <div
+                            class="border-2 border-solid border-green-Primary bg-green-Light md:p-8 p-8 flex flex-col justify-center order-last md:order-none">
+                            <div>
+                                <p class="text-gray-Dark text-4xl font-medium">That Comes Close</p>
+                                <p class="text-gray-Dark font-medium mt-4">We offer the following services</p>
+                            </div>
+                            <div class=" flex items-center md:justify-start text-center mt-8 md:mt-2">
+                                <button
+                                    class="bg-green-Primary/10 p-4 hover:bg-white-white text-green-Primary flex items-center ">
+                                    Discover Now
+                                    <img src="../images/arrow-green.svg" alt="" class="pl-4">
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="">
+                            <img src="../images/g-4.png" alt="" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <div id="Fruits" class="container">
+                <div class="">
+                    <p class="text-center text-gray-Dark mb-4 lg:text-left font-semibold md:mb-4">Our Product</p>
+                    <h1
+                        class="text-4xl font-medium text-gray-Dark text-center mb-10 lg:text-left md:mb-16 md:text-6xl ">
+                        Most Popular Product</h1>
+
+                    <div
+                        class=" grid grid-cols-1 gap-7 my-4 sm:grid-cols-2 md:w-3/4 md:mx-auto lg:w-full lg:grid-cols-4 md:mt-12  justify-center mb-8">
+                        <div class="border-2 border-solid border-green-Primary justify-center items-center p-6">
+                            <div>
+                                <div><img class="mx-auto" src="../images/1-1.png" alt=""></div>
+                                <div><img class="mx-auto mt-3" src="../images/rating Stars.png" alt=""
+                                        class="items-center"></div>
+                            </div>
+                            <p class="text-center mt-4 text-xl text-gray-Dark">Summer Veganie</p>
+                            <div class="flex justify-center m-6">
+                                <p class="mr-3 text-gray-Light text-xl opacity-70 line-through">$25</p>
+                                <p class="text-green-Primary text-xl">$18</p>
+                            </div>
+                            <div class="flex items-center justify-center text-center mt-4">
+                                <button
+                                    class="border-2 border-green-Primary border-solid p-4 hover:bg-green-100 text-green-Primary flex items-center ">
+                                    Buy Now
+                                    <img src="../images/arrow-green.svg" alt="" class="pl-5 decoration-green-Primary">
+                                </button>
+                            </div>
+                        </div>
+
+
+                        <div
+                            class="border-2 border-gray-Light-solid border-gray-Light border-opacity-30 justify-center items-center p-6">
+                            <div>
+                                <div><img class="mx-auto" src="../images/2-1.png" alt=""></div>
+                                <div><img class="mx-auto mt-3" src="../images/rating Stars.png" alt=""
+                                        class="items-center"></div>
+                            </div>
+                            <p class="text-center mt-4 text-xl text-gray-Dark">Greanie Seafood</p>
+                            <div class="flex justify-center m-6">
+                                <p class="mr-3 text-gray-Light text-xl opacity-70 line-through">$25</p>
+                                <p class="text-green-Primary text-xl">$18</p>
+                            </div>
+                            <div class="flex items-center justify-center text-center mt-4">
+                                <button
+                                    class="border-2 border-green-Primary border-solid p-4 hover:bg-green-100 text-green-Primary flex items-center ">
+                                    Buy Now
+                                    <img src="../images/arrow-green.svg" alt="" class="pl-5 decoration-green-Primary">
+                                </button>
+                            </div>
+                        </div>
+
+
+                        <div
+                            class="border-2 border-solid border-gray-Light border-opacity-30 justify-center items-center p-6">
+                            <div>
+                                <div><img class="mx-auto" src="../images/3-1.png" alt=""></div>
+                                <div><img class="mx-auto mt-3" src="../images/rating Stars.png" alt=""
+                                        class="items-center"></div>
+                            </div>
+                            <p class="text-center mt-4 text-xl text-gray-Dark">Fresh Vegetable</p>
+                            <div class="flex justify-center m-6">
+                                <p class="mr-3 text-gray-Light text-xl opacity-70 line-through">$25</p>
+                                <p class="text-green-Primary text-xl">$18</p>
+                            </div>
+                            <div class="flex items-center justify-center text-center mt-4">
+                                <button
+                                    class="border-2 border-green-Primary border-solid p-4 hover:bg-green-100  text-green-Primary hover:border-green-400 flex items-center ">
+                                    Buy Now
+                                    <img src="../images/arrow-green.svg" alt="" class="pl-5 decoration-green-Primary">
+                                </button>
+                            </div>
+                        </div>
+
+
+                        <div
+                            class="border-2 border-solid border-gray-Light border-opacity-30 justify-center items-center p-6">
+                            <div>
+                                <div><img class="mx-auto" src="../images/4-1.png" alt=""></div>
+                                <div><img class="mx-auto mt-3" src="../images/rating Stars.png" alt=""
+                                        class="items-center"></div>
+                            </div>
+                            <p class="text-center mt-4 text-xl text-gray-Dark">Fresh Meatyus</p>
+                            <div class="flex justify-center m-6">
+                                <p class="mr-3 text-gray-Light text-xl opacity-70 line-through">$25</p>
+                                <p class="text-green-Primary text-xl">$18</p>
+                            </div>
+                            <div class="flex items-center justify-center text-center mt-4">
+                                <button
+                                    class="border-2 border-green-Primary border-solid p-4 hover:bg-green-100 text-green-Primary flex items-center ">
+                                    Buy Now
+                                    <img src="../images/arrow-green.svg" alt="" class="pl-5 decoration-green-Primary">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="">
+            <div class="container">
+                <div
+                    class="relative md:my-32 my-20 mix-blend-multiply bg-bannerimage bg-black/50 mb-8 bg-cover w-full before:content before:absolute before:h-full before:w-full before:bg-black before:opacity-50 before:z-20 ">
+                    <div class="py-32 px-6 z-40 relative">
+                        <p class="text-white-white text-4xl md:text-6xl text-center md:px-32">
+                            Veggie Food? Ingredients
+                            You
+                            Want To Try</p>
+                        <div class=" flex items-center text-center justify-center mt-12 md:mt-2">
+                            <div>
+                                <button
+                                    class="bg-green-Primary p-4 hover:bg-green-400 text-white-white flex items-center mt-8">
+                                    Get Started
+                                    <img src="../images/arrow.svg" alt="" class="pl-6">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="md:flex md:justify-between text-center md:text-left">
+                <div class="md:w-2/5 lg:w-1/5">
+                    <img src="../images/Logo.png" alt="" class="md:mb-8 mx-auto md:mx-0">
+                    <div class="text-gray-Dark text-sm md:text-base mt-6  md:ml-5">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                    </div>
+                    <div class="flex mt-8 justify-center md:justify-start mb-10">
+
+                        <img src="../images/Facebook.png" alt="" class="pr-4">
+                        <img src="../images/instagram.png" alt="" class="pr-4">
+                        <img src="../images/Twitter.png" alt="">
+                    </div>
+                </div>
+                <div class="md:flex md:justify-between w-['50%'] text-gray-Dark text-center md:text-left">
+                    <div>
+                        <p class="font-medium text-xl mb-5 md:text-2xl md:mb-8 ">About Us</p>
+                        <div>
+                            <p class="mb-3 text-sm md:text-base">About Us</p>
+                            <p class="mb-3 text-sm md:text-base">Service Us</p>
+                            <p class="mb-3 text-sm md:text-base">Contact</p>
+                            <p class="mb-3 text-sm md:text-base">Company</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="font-medium text-xl mb-5 md:text-2xl md:mt-0 mt-10 md:mb-8">Company</p>
+                        <div>
+                            <p class="mb-3 text-sm md:text-base">Partnership</p>
+                            <p class="mb-3 text-sm md:text-base">Terms of Use</p>
+                            <p class="mb-3 text-sm md:text-base">Privacy</p>
+                            <p class="mb-3 text-sm md:text-base">Sitemap</p>
+                        </div>
+                    </div>
+                    <div class="md:w-1/2 ">
+                        <p class="font-medium text-xl md:text-2xl md:mb-8  md:mt-0 mt-10 mb-2">Get in touch</p>
+                        <div>
+                            <p class="md:mb-3 text-center md:text-left  text-sm md:text-base">Lorem ipsum dolor sit
+                                amet, consectetur
+                                adipiscing
+                                elit,
+                                sed do eiusmod
+                                tempor</p>
+                        </div>
+                        <div class=" md:flex md:justify-between ">
+                            <button class=" bg-gray-Light/10 p-4 text-gray-Light flex items-center mt-3 w-full mr-4
+                                justify-center md:justify-start">
+                                Email
+                            </button>
+                            <button
+                                class="w-full justify-center bg-green-Primary p-4 hover:bg-green-400 text-white-white flex items-center mt-3 md:w-2/6">
+                                Subscribe
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="text-center mt-16 text-gray-Dark text-sm md:text-base">Copyright © 2021 Foodies.</p>
+    </footer>
+</body>
+
+</html>
